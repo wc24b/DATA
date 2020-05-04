@@ -1,10 +1,9 @@
 # Wild Code School 
 ## Data Training Session
 
-### Goal of this repository
+### Objective this repository
 
-
-Revision of the content
+#### Revision of the content
 
 1. Check coherence between skill book and curiculum
 
@@ -23,11 +22,20 @@ Revision of the content
   - [Curriculum]: training program agenda organized by weeks
   - [_META]: stores original csv files and powerpoint presentation on the mission
 
-2. Directory for each type of content
+2. Directory for each type of resource
   
-  - at the root of each content: some rules and description of the format
-  - document contains the typename and the week reference or numerotation
+  - A the top of each folder the template in .md explaining how to reference them, rules, naming convention and additionnal tools to respect the format
+  - Each resource have a number and a language code and will be referenced in the sheduled week   
 
 3. Directory for the Curriculum organized by Week
  - each week contains a document as a review of the skills, objectives and resources mobilized 
+
+
+> **A word on Naming Conventions**
+
+WEEK files: W1.md in ./Week
+QUEST files: Q1_FR.md Q1_EN.md in ./Quest
+Course files: C1_FR.md in ./Course
+Livecoding files: LC1_FR.md in ./Livecoding
+Dojo files: D1_FR.md ./Dojo
 
